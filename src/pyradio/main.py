@@ -47,7 +47,7 @@ class RadioApp(QWidget):
         main_layout.addWidget(self.animation_label, 3, 0, 1, 2)
 
         # Charger l'animation GIF
-        self.movie = QMovie("./IMG/onde.gif")  # Remplacez par le chemin de votre GIF
+        self.movie = QMovie("./src/pyradio/IMG/onde.gif")  # Remplacez par le chemin de votre GIF
         self.animation_label.setMovie(self.movie)
         self.movie.jumpToFrame(0)
 
