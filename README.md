@@ -1,7 +1,7 @@
 # PyRadio
 
 <div align="center">
-  <img src="src/pyradio/IMG/PyRadio.png" alt="" />
+  <img src="assets/IMG/PyRadio.png" alt="" />
 </div>
 
 ## Présentation
