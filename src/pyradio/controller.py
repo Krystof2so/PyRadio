@@ -1,5 +1,6 @@
 from functools import partial
 from PySide6.QtWidgets import QPushButton
+from PySide6.QtMultimedia import QMediaPlayer
 
 class RadioController:
     def __init__(self, model, view):
