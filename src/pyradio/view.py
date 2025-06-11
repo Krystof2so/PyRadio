@@ -22,6 +22,9 @@ class RadioView(QWidget):
         self.play_pause_button = QPushButton()
         self.main_layout.addWidget(self.play_pause_button, 5, 0, 2, 2)
 
+        self.record_button = QPushButton("Enregistrement")
+        self.main_layout.addWidget(self.record_button, 6, 0, 1, 2)
+
     def set_play_pause_button_text(self, text):
         self.play_pause_button.setText(text)
 
