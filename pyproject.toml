@@ -1,18 +1,9 @@
 [project]
 name = "pyradio"
 version = "0.1.0"
-description = "Radio player for Radio France stations"
-authors = [
-    {name = "Krystof2so",email = "christo.2so@gmail.com"}
-]
-license = {text = "GNU GENERAL PUBLIC LICENSE"}
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13, <3.14"
+requires-python = ">=3.13"
 dependencies = [
-    "pyside6 (==6.9.0)"
+    "pyside6>=6.9.1",
 ]
-
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
